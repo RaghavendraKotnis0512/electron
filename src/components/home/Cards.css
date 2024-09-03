@@ -1,0 +1,60 @@
+.subtitle1 {
+  color: #1B5A7D;
+  font-size: x-large;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; 
+  max-width: 1315px; 
+  margin: 0 auto; 
+}
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 8px;
+  text-align: left;
+  width: calc(25% - 16px); 
+  box-sizing: border-box;
+}
+
+.card img {
+  max-width: 100%;
+  height: 200px;
+  border-radius: 8px;
+}
+
+.label {
+  color: #1B5A7D;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.price {
+  color: #888;
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+@media (max-width: 1200px) {
+  .card {
+    width: calc(33.33% - 16px);
+  }
+}
+
+@media (max-width: 900px) {
+  .card {
+    width: calc(50% - 16px); 
+  }
+}
+
+@media (max-width: 600px) {
+  .card {
+    width: 100%; 
+  }
+}

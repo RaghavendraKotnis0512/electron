@@ -1,0 +1,30 @@
+.carousel-container {
+    max-width: 1440px;
+    height: 394px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .carousel-paper {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    padding-left: 16px;
+    background-color: #f0f0f0; 
+  }
+  
+  .carousel-image {
+    height: 394px; 
+    display: block;
+    width: 1440px; 
+    object-fit: cover; 
+  }
+  
+  .carousel-mobile-stepper {
+    justify-content: center;
+    background-color: #f0f0f0;
+  }
+  img{
+    height: 394px;
+    width: 1440px;
+  }

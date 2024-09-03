@@ -1,0 +1,42 @@
+
+.ad{
+  width: 1317px;
+  height: 417px;
+  margin-top: 75px;
+  margin-left: 50px;
+  border-radius: 10px;
+}
+.speciality{
+  width: 1328px;
+  height: 155px;
+  background-color: #E2F4FF;
+  margin-top: 75px;
+  margin-left: 50px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+  text-wrap: wrap;
+}
+.special-title{
+  color: #003F62;
+  font-weight: bolder;
+  font-size: 20px;
+}
+.special{
+  width: 200px;
+  margin-left: 50px;
+}
+.sponsor{
+  width: 1328px;
+  height: 155px;
+  background-color: #E2F4FF;
+  margin-top: 75px;
+  margin-left: 50px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+}
